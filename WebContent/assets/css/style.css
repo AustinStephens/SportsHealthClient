@@ -1,0 +1,78 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.headline {
+	width: 400px;
+	text-align: center;
+	font-size: 20px;
+	text-color: #000000;
+	border: 1px solid black;
+}
+
+.navigationBar {
+	background-color: rgba(250, 181, 181, 1);
+}
+
+.bannerAd {
+	width: 100%;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 20vw;
+    max-width: 60vh;
+    height: 20vw;
+    max-height: 60vh;
+    font-size: 1rem;
+}
+
+#grid1 {
+	margin-right: 50px;
+}
+
+#articleBookarmk {
+	position: relative;
+	right: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+    flex: 1 0 auto;
+    position: relative;
+}
+
+.box:after {
+    content: "";
+    float:left;
+    display: block;
+    padding-top: 100%;
+}
+.box .inner {
+	color: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.articleList {
+	margin-top: 20px; 
+	font-size: 25px; 
+	line-height: 45px
+}
